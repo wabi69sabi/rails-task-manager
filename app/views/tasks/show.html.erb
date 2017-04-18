@@ -3,3 +3,6 @@
 
 <%= @task.description%>
 <p>done: <%= @task.done%></p>
+<%= link_to "Home", tasks_path%>
+<br>
+<%= link_to "Update done", edit_task_path(@task)%>
